@@ -155,13 +155,9 @@ class App extends Component {
   };
 
   errorDisplay = () => {
-    // console.log(this.state.error);
-
-    if (this.state.error === "") {
-      return null;
-    } else {
-      return <span className="error_msg">{this.state.error}</span>;
-    }
+    return this.state.error === "" ? null : (
+      <span className="error_msg">{this.state.error}</span>
+    );
   };
 
   render() {
