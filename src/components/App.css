@@ -54,3 +54,13 @@
   display: flex;
   justify-content: center;
 }
+
+.error_msg {
+  color: red;
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 60px;
+}
